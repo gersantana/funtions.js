@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* EJERCICIO 3_PINTAR */
+.flex_body {
+    height: 90vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c5c5c;
+}
+
+#ele1 {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+
+
+/* EJERCICIO 4_COLORES */
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #5c5c5c;
+}
+
+.container_exer {
+    max-width: 1200px;
+    padding: 0 30px 0 30px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#blueBox {
+    background-color: blue;
+}
+#redBox {
+    background-color: red;
+}
+#greenBox {
+    background-color: green;
+}
+#yellowBox {
+    background-color: yellow;
+}
+#key{
+    background-color: white;
+}
+
+.style_key1 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
