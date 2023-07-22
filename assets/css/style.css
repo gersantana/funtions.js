@@ -3,12 +3,57 @@ body {
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    color: white;
-}
-
-h2 {
+    background-color: #5c5c5c;
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}   
+
+/* MENU.INDEX.HTML */
+.back {
+    position: fixed;
+    bottom: 50px;
+    left: 100px;
+}
+
+.back a, .next a { 
+    color: white;
+    font-size: 20px;
+}
+
+.next {
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+}
+
+.back a:hover, .next a:hover {
+    text-decoration: underline rgb(7, 67, 82);
+    color:rgb(78, 188, 216);
+}
+
+.menu {
+    height: 90vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 30px ;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color: white;
+    font-size: 40px;
+    padding: 20px 20px;
+    width: 500px;
+    max-width: 500px;
+    transition: all .2s ease;
+}
+
+.menu a:hover {
+    background-color: rgb(78, 125, 139);
+    border-radius: 20px;
+    text-decoration: underline rgb(7, 67, 82);
+    font-weight: bold;
 }
 
 
@@ -29,6 +74,7 @@ h2 {
     font-size: 100px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
+    color: black;
 }
 
 
