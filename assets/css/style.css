@@ -1,133 +1,137 @@
-
 body {
-    margin: 0;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #5c5c5c;
-    color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}   
+	margin: 0;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #5c5c5c;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* MENU.INDEX.HTML */
-.back {
-    position: fixed;
-    bottom: 50px;
-    left: 100px;
+.buttons_navs {
+	display: flex;
+	gap: 50px;
+	padding: 30px 0;
+}
+.back a,
+.next a {
+	color: white;
+	font-size: 20px;
 }
 
-.back a, .next a { 
-    color: white;
-    font-size: 20px;
-}
+@media (min-width: 768px) {
+	.back {
+		position: fixed;
+		bottom: 50px;
+		left: 100px;
+	}
 
-.next {
-    position: fixed;
-    bottom: 50px;
-    right: 100px;
-}
+	.next {
+		position: fixed;
+		bottom: 50px;
+		right: 100px;
+	}
 
-.back a:hover, .next a:hover {
-    text-decoration: underline rgb(7, 67, 82);
-    color:rgb(78, 188, 216);
+	.back a:hover,
+	.next a:hover {
+		text-decoration: underline rgb(7, 67, 82);
+		color: rgb(78, 188, 216);
+	}
 }
 
 .menu {
-    height: 90vh;
-    display:flex ;
-    justify-content: center;
-    align-items: center;
-    gap: 30px ;
-    flex-wrap: wrap;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	flex-wrap: wrap;
 }
 
 .menu a {
-    color: white;
-    font-size: 40px;
-    padding: 20px 20px;
-    width: 500px;
-    max-width: 500px;
-    transition: all .2s ease;
+	color: white;
+	font-size: 40px;
+	padding: 20px 20px;
+	width: 500px;
+	max-width: 500px;
+	transition: all 0.2s ease;
 }
 
 .menu a:hover {
-    background-color: rgb(78, 125, 139);
-    border-radius: 20px;
-    text-decoration: underline rgb(7, 67, 82);
-    font-weight: bold;
+	background-color: rgb(78, 125, 139);
+	border-radius: 20px;
+	text-decoration: underline rgb(7, 67, 82);
+	font-weight: bold;
 }
-
 
 /* EJERCICIO 3_PINTAR */
 .flex_body {
-    height: 90vh;
-    display:flex ;
-    justify-content: center;
-    align-items: center;
-    background-color: #5c5c5c;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #5c5c5c;
+	flex-direction: column;
 }
 
 #ele1 {
-    width: 1200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-    color: black;
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 600;
+	color: black;
 }
-
-
 
 /* EJERCICIO 4_COLORES */
 .flex_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    background-color: #5c5c5c;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	background-color: #5c5c5c;
 }
 
 .container_exer {
-    max-width: 1200px;
-    padding: 0 30px 0 30px;
-
+	max-width: 1200px;
+	padding: 0 30px 0 30px;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 30px;
 }
 
 .box {
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
 }
 
 #blueBox {
-    background-color: blue;
+	background-color: blue;
 }
 #redBox {
-    background-color: red;
+	background-color: red;
 }
 #greenBox {
-    background-color: green;
+	background-color: green;
 }
 #yellowBox {
-    background-color: yellow;
+	background-color: yellow;
 }
-#key{
-    background-color: white;
+#key {
+	background-color: white;
 }
 
 .style_key1 {
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
 }
